@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #222;
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #d9534f; /* Bootstrap's danger color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px 0; /* Added margin for vertical spacing */
+    text-decoration: none;
+    color: #fff;
+    background-color: #de5b87; /* Bootstrap's info color */
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.btn:hover {
+    background-color: #72092c; /* Darker shade on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+img {
+    margin-top: 20px;
+}

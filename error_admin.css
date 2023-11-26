@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.heading-container {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+}
+
+.heading-container h1 {
+    margin-bottom: 0; /* Remove the default margin-bottom */
+}
+
+
+h2 {
+    color: #d9534f; /* Bootstrap's danger color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #ff2261;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #cb0519;
+}
+
+.button-container a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2261;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button-container a:hover {
+    background-color: #cb0519; /* Darker shade on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logout-container {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    text-align: center;
+}
+
+.logout-container a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff2261;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.logout-container a:hover {
+    background-color: #cb0519;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

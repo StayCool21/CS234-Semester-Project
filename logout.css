@@ -1,0 +1,50 @@
+/* logout.css */
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logout-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logout-message p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px 0; /* Added margin for vertical spacing */
+    text-decoration: none;
+    color: #fff;
+    background-color: #C822FF; /* Bootstrap's info color */
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    background-color: #9a05cb; /* Darker shade on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+footer img {
+    margin-top: 20px;
+}

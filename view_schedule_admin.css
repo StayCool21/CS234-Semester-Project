@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Global heading styles */
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Heading container styles */
+.heading-container {
+    position: fixed;
+    top: 8px;
+    left: 20px;
+}
+
+.heading-container h1 {
+    margin-bottom: 0; /* Remove the default margin-bottom */
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Generic button styles */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2261; /* Bootstrap's info color */
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect styles */
+.btn:hover {
+    background-color: #cb0519; /* Darker shade on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Logout container styles */
+.logout-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+/* Logout link styles */
+.logout-container a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff2261;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Logout link hover effect styles */
+.logout-container a:hover {
+    background-color: #cb0519;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Courses container styles */
+.courses-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ff2261; /* Border color */
+    border-radius: 8px;
+}
+
+/* Course list styles */
+.courses-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.courses-container li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: auto;
+    margin-top: 30px;
+    color: #ccc;
+}
+
+/* Footer link styles */
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Footer link hover effect styles */
+footer a:hover {
+    text-decoration: underline;
+}

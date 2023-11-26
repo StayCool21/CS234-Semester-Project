@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.heading-container {
+    position: fixed;
+    top: 8px;
+    left: 20px;
+}
+
+.heading-container h1 {
+    margin-bottom: 0; /
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #C822FF; /* Bootstrap's info color */
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #9a05cb; /* Darker shade on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.logout-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.logout-container a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #C822FF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.logout-container a:hover {
+    background-color: #9a05cb;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

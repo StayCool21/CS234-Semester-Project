@@ -1,0 +1,3 @@
+Note: for admin controls, the username and password for the adminstrator is as follows:
+Username: admin
+Password: admin
